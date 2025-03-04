@@ -19,12 +19,6 @@ public class MainTest {
         
         // In ra thông báo để kiểm tra
         System.out.println("LazyInitializedSingleton instance created!");
-        
-     // Lấy instance của Singleton theo cách thread-safe
-        ThreadSafeSingleton singleton3 = ThreadSafeSingleton.getInstanceUsingDoubleLocking();
-        
-        // In ra thông báo để kiểm tra
-        System.out.println("ThreadSafeSingleton instance created!");
 	}
 
 }
