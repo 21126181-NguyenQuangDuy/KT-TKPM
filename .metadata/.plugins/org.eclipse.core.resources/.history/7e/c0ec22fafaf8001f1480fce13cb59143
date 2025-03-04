@@ -31,9 +31,6 @@ public class MainTest {
         
         // In ra thông báo để kiểm tra
         System.out.println("BillPughSingleton instance created!");
-        
-        EnumSingleton singleton5 = EnumSingleton.INSTANCE;
-        singleton5.doSomething();
 	}
 
 }
