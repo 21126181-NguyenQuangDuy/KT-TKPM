@@ -13,12 +13,6 @@ public class MainTest {
         
         // In ra thông báo để kiểm tra
         System.out.println("StaticBlockSingleton instance created!");
-        
-     // Lấy instance của Singleton
-        LazyInitializedSingleton singleton2 = LazyInitializedSingleton.getInstance();
-        
-        // In ra thông báo để kiểm tra
-        System.out.println("LazyInitializedSingleton instance created!");
 	}
 
 }
