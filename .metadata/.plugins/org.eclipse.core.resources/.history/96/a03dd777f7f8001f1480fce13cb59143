@@ -7,12 +7,6 @@ public class MainTest {
 
 		// In ra thông báo để kiểm tra
 		System.out.println("EagerInitializedSingleton instance created!");
-		
-		// Lấy instance của Singleton
-        StaticBlockSingleton singleton1 = StaticBlockSingleton.getInstance();
-        
-        // In ra thông báo để kiểm tra
-        System.out.println("StaticBlockSingleton instance created!");
 	}
 
 }
