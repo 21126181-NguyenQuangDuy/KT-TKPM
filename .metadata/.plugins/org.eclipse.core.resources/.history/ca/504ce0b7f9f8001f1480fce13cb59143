@@ -27,7 +27,7 @@ public class MainTest {
         System.out.println("ThreadSafeSingleton instance created!");
         
      // Lấy instance của Singleton theo cách Bill Pugh
-        BillPughSingleton singleton4 = BillPughSingleton.getInstance();
+        BillPughSingleton singleton = BillPughSingleton.getInstance();
         
         // In ra thông báo để kiểm tra
         System.out.println("BillPughSingleton instance created!");
