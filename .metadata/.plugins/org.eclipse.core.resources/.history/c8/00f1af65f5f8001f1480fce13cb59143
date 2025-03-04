@@ -1,0 +1,28 @@
+package com.journaldev.singleton;
+
+public class EagerInitializedSingleton {
+
+	private static final EagerInitializedSingleton instance = new EagerInitializedSingleton();
+	// private constructor to avoid client applications to use constructor
+	
+	private EagerInitializedSingleton(){
+		
+	}
+
+	public static EagerInitializedSingleton getInstance() {
+		return instance;
+	}
+	public class Main {
+	    public static void main(String[] args) {
+	        // Lấy instance của Singleton
+	        EagerInitializedSingleton singleton = EagerInitializedSingleton.getInstance();
+	        
+	        // In ra thông báo để kiểm tra
+	        System.out.println("EagerInitializedSingleton instance created!");
+	    }
+	}
+
+}
+
+
+
